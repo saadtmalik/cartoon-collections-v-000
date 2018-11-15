@@ -1,10 +1,7 @@
-array = ["Doc", "Dopey", "Bashful", "Grumpy"]
-
-def roll_call_dwarves(array)
-  i = 0
-  while i < array.length
-    puts "#{i + 1}. #{array[i]}"
-    i += 1
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index do |name, index|
+    index =+ 1
+    purs "#{index}, #{name}"
   end
 end
 
