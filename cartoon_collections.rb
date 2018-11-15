@@ -3,6 +3,7 @@ def roll_call_dwarves(dwarves)
     index =+ 1
     purs "#{index}, #{name}"
   end
+  roll_call_dwarves
 end
 
 def summon_captain_planet# code an argument here
