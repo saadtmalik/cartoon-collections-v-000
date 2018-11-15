@@ -1,4 +1,4 @@
-dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+array = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 def roll_call_dwarves(array)
   i = 0
@@ -8,7 +8,7 @@ def roll_call_dwarves(array)
   end
 end
 
-roll_call_dwarves(dwarves)
+roll_call_dwarves(array)
   # Your code here
 end
 
